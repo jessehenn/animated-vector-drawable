@@ -5,17 +5,11 @@
     android:viewportHeight="100"
     android:viewportWidth="100" >
   <path
-      android:fillColor="@color/yellow"
-      android:pathData="@string/path_circle"/>
-  <path
       android:fillColor="@android:color/black"
-      android:pathData="@string/path_face_left_eye"/>
-  <path
-      android:fillColor="@android:color/black"
-      android:pathData="@string/path_face_right_eye"/>
+      android:pathData="@string/path_bar"/>
   <path
       android:name="mouth"
-      android:strokeColor="@android:color/black"
+      android:strokeColor="@color/picker_grey"
       android:strokeWidth="@integer/stroke_width"
       android:strokeLineCap="round"
       android:pathData="@string/path_face_mouth_sad"/>
